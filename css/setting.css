@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: shabnam;
+}
+body{
+    overflow-x: hidden;
+
+}
+html,body{
+    scroll-behavior: smooth;
+    transition: 300ms;
+}
+.dark{
+    background-color: rgb(34, 34, 60) !important ;
+}
+.header-mode-mo{
+  background-color: rgb(25, 23, 23);
+}
+.wrapper{
+height: 720vh;
+}
+::-webkit-scrollbar{
+    width: 5px;
+     background-color: whitesmoke;
+}
+::-webkit-scrollbar-thumb{
+    width: 1px;
+    height: 10px !important;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+
+.bob{
+        background: url(../images/) 0% 0% / cover no-repeat;
+}
+.swiper {
+      width: 100%;
+      height: 100%;
+      transition: 300ms;
+    }
+
+    .swiper-slide {
+      height: 285px;
+      text-align: center;
+      font-size: 18px;
+      background: #f6f1f1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+      margin-top: 5px;
+      transition: 300ms;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  
+    }
+ .swiper-pagination-bullet{
+    width: 15px !important;
+    height: 10px !important;
+    border-radius: 30px !important;
+    transition: 300ms;
+ }
+     .swiper-pagination-bullet-active{    
+        width: 25px !important;
+        transition: 300ms;
+        background-color: rgb(255, 255, 255);
+    }
+
+.slider-dad{
+        .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #444;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+}

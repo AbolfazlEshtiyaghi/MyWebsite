@@ -1,0 +1,766 @@
+.one-op{
+    animation: op 1s ease-out forwards;
+}
+.ttb{
+     animation:tttb 1.1s ease-out forwards;
+}
+.ttbp{
+     animation:tttb 1.2s ease-out forwards;
+}
+.ttb-btn{
+    opacity: 0;
+        animation:ttb-btn 1s ease-out 100ms forwards;
+}
+.ins{
+    animation:ttb-icon 1s ease-out forwards;
+}
+.link{
+     animation:ttb-icon 1.2s ease-out forwards;
+}
+.github{
+    animation:ttb-icon 1.4s ease-out forwards;
+}
+.ball{
+     animation:ttb-icon 1.6s ease-out forwards;
+}
+.ttb-img{
+    animation:ttb-img 1.2s ease-out forwards;
+}
+.tt-ttb{
+    animation:ttb-text-wel 900ms ease-out forwards;
+}
+.ttb-frontend{
+    animation: ttb-frontend 900ms ease-out forwards;
+}
+.p-qnimeh{
+animation: ttb-p 900ms ease-out forwards;
+}
+.fo-animeh11{
+    animation: ttb-fo 900ms ease-out forwards;
+}
+.fo-animeh22{
+    animation: ttb-fo 1.1s ease-out forwards;
+}
+.fo-animeh33{
+    animation: ttb-fo 1.3s ease-out forwards;
+}
+.fo-animeh44{
+    animation: ttb-fo 1.5s ease-out forwards;
+}
+.img{
+    animation: ttb-img 1s ease-out forwards;
+}
+.h2-ani{
+    animation: ttb-h2 1s ease-out forwards;
+}
+.I-m-frontEnd{
+    animation: ttb-front 1s ease-out forwards;
+}
+.animeh-p-information{
+    animation: ttb-p-infor 1s ease-out forwards;
+}
+.ttb-pur1{
+     animation: pur 700ms ease-out forwards;
+}
+.ttb-pur22{
+     animation: pur2 900ms ease-out  forwards;
+}
+.ttb-pur33{
+     animation: pur3 1s ease-out 300ms forwards;
+}
+.ttb-pur44{
+     animation: pur4 1s ease-out 500ms forwards;
+}
+.ttb-pur1-mo-add{
+     animation: purmo 700ms ease-out forwards;
+}
+.ttb-pur22-mo-add{
+     animation: pur2mo 900ms ease-out  forwards;
+}
+.ttb-pur33-mo-add{
+     animation: pur3mo 1s ease-out 300ms forwards;
+}
+.ttb-pur44-mo-add{
+     animation: pur4mo 1s ease-out 500ms forwards;
+}
+.ttb-pur55-mo-add{
+     animation: pur5mo 1s ease-out 500ms forwards;
+}
+.ttb-pur66-mo-add{
+     animation: pur6mo 1s ease-out 500ms forwards;
+}
+.ttb-pur77-mo-add{
+     animation: pur7mo 1s ease-out 500ms forwards;
+}
+.ttb-pur88-mo-add{
+     animation: pur8mo 1s ease-out 500ms forwards;
+}
+.pur-text1-mo{
+     animation: prt 1.1s ease-out forwards;
+}
+.pur-text1{
+    animation: prt 1s ease-out forwards;
+}
+.ddddd1{
+ animation: pr 1.1s ease-out 1s forwards;
+}
+
+.dddddd2{
+ animation: prr 1.1s ease-out 1s forwards;
+}
+
+.ddddddd3{
+ animation: prrr 1.1s ease-out 1s forwards;
+}
+
+.dddddddd4{
+ animation: prrrr 1.1s ease-out 1s forwards;
+}
+
+.titleMO{
+    animation: formtitle 1s ease-out forwards;
+}
+.img-mo-animeh1{
+   animation: imganimo 1s ease-out  forwards;  
+}
+.text-aboutme-mo1{
+    animation: taboutmo 1s ease-out  forwards; 
+}
+.animeh-hi1{
+    animation: animeh-hi 1s ease-out  forwards; 
+}
+.p-animeh1{
+    animation: animeh-p 1s ease-out  forwards; 
+}
+.bt-animeh-mo1{
+    animation: bt-animeh-mo 1s ease-out  forwards; 
+}
+.form-animeh{
+    animation: ttb-form-purple 1s ease-out  forwards;
+}
+.card{
+    box-shadow: 0px 0px 10px rgb(189, 187, 187);
+}
+.card11{
+    animation: card 1s ease-out 500ms forwards;
+    
+}
+.card22{
+    animation: card 1s ease-out 700ms forwards;
+}
+.card33{
+    animation: card 1s ease-out 900ms forwards;
+}
+.color-white{
+    color: whitesmoke;
+}
+.title-card1{
+    animation: title-card 1s ease-out 300ms forwards;
+}
+.purply-animeh1{
+    animation: purlply-desk 900ms ease-out  forwards;
+}
+.purply-animeh1-mo{
+    animation: purlply-mo 1s ease-out  forwards;
+}
+.project-card1{
+animation: project-card 1s ease-out 100ms forwards;
+}
+.project-card22{
+animation: project-card 1s ease-out 200ms forwards;
+}
+.project-card33{
+animation: project-card 1s ease-out 400ms forwards;
+}
+.title-pro1{
+  animation: project-title 900ms ease-out  forwards;  
+}
+.animation-slider-add{
+    animation: slider-des 1s ease-out    forwards;
+}
+.login-animation1{
+    animation: toptobottom 700ms ease-out  forwards;
+}
+.login-animation2{
+    animation: toptobottom 1.1s ease-out  forwards;
+}
+.login-animation3{
+    animation: toptobottom 1.5s ease-out  forwards;
+}
+.login-animation4{
+    animation: toptobottom 1.9s ease-out  forwards;
+}
+.login-animation5{
+    animation: toptobottom 2.3s     ease-out  forwards;
+}
+.slide{
+    animation: slide 800ms ease-out forwards;
+}
+@keyframes op {
+0%{
+    opacity: 0;
+    transform: translateY(-30px);
+} 
+30%{
+    opacity: 0;
+}
+100%{
+    opacity: 1;
+    transform: translateY(0px);
+}   
+}
+@keyframes tttb {
+0%{
+    opacity: 0;
+    transform: translateY(-50px);
+} 
+50%{
+    opacity: 0;
+}
+100%{
+    transform: translateY(0px);
+    opacity: 1;
+}   
+}
+@keyframes ttb-btn {
+0%{
+    opacity: 0;
+    transform: translateY(-100px);
+} 40%{
+    opacity: 0;
+}
+100%{
+    transform: translateY(0px);
+    opacity: 1;
+}   
+}
+@keyframes ttb-icon {
+0%{
+    opacity: 0;
+    transform: translateY(-30px);
+} 
+
+100%{
+    transform: translateY(0px);
+    opacity: 1;
+}   
+}
+@keyframes ttb-img {
+    0%{
+        transform: translateY(-40px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+@keyframes ttb-text-wel {
+    0%{
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+@keyframes ttb-frontend {
+     0%{
+        transform: translateY(-10px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+@keyframes ttb-p {
+     0%{
+        transform: translateY(-10px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+@keyframes ttb-fo {
+     0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    40%{
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes ttb-img {
+     0%{
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+    40%{
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes ttb-h2 {
+     0%{
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    40%{
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+       opacity: 1;
+    }
+}
+@keyframes ttb-front {
+     0%{
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+    40%{
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+       opacity: 1;
+    }
+}
+@keyframes  ttb-p-infor {
+     0%{
+        transform: translateY(-40px);
+        opacity: 0;
+    }
+    40%{
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+       opacity: 1;
+    }
+}
+@keyframes prt {
+0%{
+    opacity: 0;
+    transform: translateY(-50px); 
+}
+20%{
+    opacity: 0;
+}
+100%{
+    opacity: 1;
+    transform: translateY(0px);
+}
+}
+@keyframes  pr {
+     0%{
+       width: 0%;
+    }
+  
+    100%{
+       width: 95%;
+    }
+}
+@keyframes  prr {
+     0%{
+       width: 0%;
+    }
+  
+    100%{
+       width: 97%;
+    }
+}
+@keyframes  prrr {
+     0%{
+       width: 0%;
+    }
+  
+    100%{
+       width: 90%;
+    }
+}
+@keyframes  prrrr {
+     0%{
+       width: 0%;
+    }
+  
+    100%{
+       width: 70%;
+    }
+}
+@keyframes  pur {
+     0%{
+       opacity: 0;
+       transform: translateY(-40px);
+    }
+  
+    100%{
+        opacity: 1;
+       transform: translateY(0px);
+    }
+}
+@keyframes  pur2 {
+     0%{
+       opacity: 0;
+       transform: translateY(-120px);
+    }
+  
+    40%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+       transform: translateY(0px); 
+    }
+}
+@keyframes  pur3 {
+     0%{
+       opacity: 0;
+       transform: translateY(-120px);
+    }
+  
+    40%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+       transform: translateY(0px); 
+    }
+}
+@keyframes  pur4 {
+     0%{
+       opacity: 0;
+       transform: translateY(-120px);
+    }
+  
+    40%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+       transform: translateY(0px); 
+    }
+}
+@keyframes purmo {
+0%{
+transform: translateY(-30px);
+opacity: 0;
+}   
+10%{
+    opacity: 0;
+}
+100%{
+    transform: translateY(0px);
+    opacity: 1;
+}
+}
+@keyframes pur2mo {
+0%{
+transform: translateY(-30px);
+opacity: 0;
+}   
+20%{
+    opacity: 0;
+}
+100%{
+    transform: translateY(0px);
+    opacity: 1;
+}
+}
+@keyframes pur3mo {
+0%{
+transform: translateY(-30px);
+opacity: 0;
+}   
+30%{
+    opacity: 0;
+}
+100%{
+    transform: translateY(0px);
+    opacity: 1;
+}
+}
+@keyframes pur4mo {
+0%{
+transform: translateY(-30px);
+opacity: 0;
+}   
+30%{
+    opacity: 0;
+}
+100%{
+    transform: translateY(0px);
+    opacity: 1;
+}
+}
+@keyframes pur5mo {
+0%{
+transform: translateY(-30px);
+opacity: 0;
+}   
+30%{
+    opacity: 0;
+}
+100%{
+    transform: translateY(0px);
+    opacity: 1;
+}
+}
+@keyframes pur6mo {
+0%{
+transform: translateY(-30px);
+opacity: 0;
+}   
+30%{
+    opacity: 0;
+}
+100%{
+    transform: translateY(0px);
+    opacity: 1;
+}
+}
+@keyframes pur7mo {
+0%{
+transform: translateY(-30px);
+opacity: 0;
+}   
+30%{
+    opacity: 0;
+}
+100%{
+    transform: translateY(0px);
+    opacity: 1;
+}
+}
+@keyframes pur8mo {
+0%{
+transform: translateY(-30px);
+opacity: 0;
+}   
+30%{
+    opacity: 0;
+}
+100%{
+    transform: translateY(0px);
+    opacity: 1;
+}
+}
+@keyframes  imganimo {
+     0%{
+       opacity: 0;
+       width: 0%;
+    }
+  
+    20%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        width: 90%; 
+    }
+}
+@keyframes  taboutmo {
+     0%{
+       opacity: 0;
+       transform: translateY(-30px);
+    }
+  
+    20%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+@keyframes  animeh-hi {
+     0%{
+       opacity: 0;
+       transform: translateY(-30px);
+    }
+  
+    40%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+@keyframes  animeh-p {
+     0%{
+       opacity: 0;
+       transform: translateY(-30px);
+    }
+  
+    40%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+@keyframes  bt-animeh-mo {
+     0%{
+       opacity: 0;
+       transform: translateY(-30px);
+    }
+  
+    40%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+@keyframes ttb-form-purple {
+0%{
+transform: translateY(-80px);
+opacity: 0;
+}
+50%{
+    opacity: 0;
+}
+100%{
+    transform: translateY(0px);
+    opacity: 1;
+}
+}
+
+@keyframes card {
+    0%{
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes title-card {
+    0%{
+        transform: translateY(-40px);
+    }
+    20%{
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes purlply-desk {
+    0%{
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    40%{
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+       opacity: 1;
+    }
+}
+@keyframes purlply-mo {
+    0%{
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    40%{
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes  project-title {
+    0%{
+        opacity: 0;
+        transform: translateY(-60px);
+    }50%{
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes project-card {
+    0%{
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    30%{
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes project-card-2 {
+    0%{
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+ 
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+@keyframes slider-des{
+    0%{
+        opacity: 0;
+        transform: translateY(-80px);
+    }50%{
+        opacity: 0;
+    }
+100%{
+    transform: translateY(0px);
+    opacity: 1;
+}
+}
+@keyframes toptobottom {
+0%{
+    transform: translateY(-30px);
+    opacity: 0;
+}
+100%{
+    transform: translateY(0px);
+    opacity: 1;
+}
+}
+@keyframes formtitle {
+    0%{
+        transform:translateY(-15px);
+        opacity: 0;
+    }100%{
+        transform:translateY(px);
+        opacity: 1;
+    }
+}
+@keyframes slide {
+    0%{
+        transform: translateY(-60px);
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
