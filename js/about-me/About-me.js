@@ -259,7 +259,7 @@ const About = async () => {
         <div class="card-mo !mt-[3px] card3-1 opacity-0">
           <div class="w-[90%] h-[85%]">
             <div class="w-[100%] h-[35%]  flex justify-start items-center">
-              <div class="w-[24%] h-[95%]  !mr-[10px] flex justify-center items-center rounded-[40px] bg-orange-600"><img class="!mb-[3px]" src="images/services/ui-design.svg" alt=""></div>
+              <div class="w-[24%] h-[95%]  !mr-[10px] flex justify-center items-center rounded-[40px] bg-orange-600"><img class="!mb-[3px]" src=${item.image} alt=""></div>
             </div>
             <div class="w-[100%] h-[20%] flex justify-start items-center "> 
               <div class="w-[40%] h-[80%] flex justify-center items-end !mt-[5px] ">
